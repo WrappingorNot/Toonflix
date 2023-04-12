@@ -88,6 +88,7 @@ class _DetailScreenState extends State<DetailScreen> {
         ),
       ),
       body: SingleChildScrollView(
+        physics: const BouncingScrollPhysics(),
         child: Padding(
           padding: const EdgeInsets.all(50),
           child: Column(children: [
