@@ -12,6 +12,7 @@ class MyHttpOverrides extends HttpOverrides {
   }
 }
 
+//이거는 올라가겠지
 void main() {
   HttpOverrides.global = MyHttpOverrides();
 
